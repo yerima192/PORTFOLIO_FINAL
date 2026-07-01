@@ -21,8 +21,6 @@ body {
 
 .line1 {
     display: block;
-    overflow: hidden;
-    white-space: nowrap;
     width: 0;
 }
 
@@ -88,7 +86,6 @@ background: linear-gradient(
 .logo {
     font-size: 1.8rem;
     letter-spacing: 3px;
-
  background: linear-gradient(
 135deg,
 #7CC6FE,
@@ -119,14 +116,12 @@ background: linear-gradient(
 }
 
 .logo span {
-
   background: linear-gradient(
 135deg,
 #7CC6FE,
 #4FA3D9,
 #295D8F
 );
-
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -147,7 +142,6 @@ background: linear-gradient(
 #295D8F
 );
 }
-
 
 .social-section p{
     font-size: 0.95rem;
@@ -178,8 +172,6 @@ background: linear-gradient(
 
 .hero {
     min-height: 100vh;
-    position: relative;
-    overflow: hidden;
     background:
         linear-gradient(rgba(3, 6, 18, .55),
             rgba(5, 8, 22, .70)),
@@ -204,7 +196,6 @@ background: linear-gradient(
     background: radial-gradient(rgba(0, 212, 255, .35),
             transparent 70%);
     filter: blur(90px);
-
 }
 
 
@@ -221,7 +212,6 @@ background: linear-gradient(
 }
 
 .hero-name {
-
     font-weight: 900;
     letter-spacing: 4px;
  background: linear-gradient(
@@ -266,16 +256,8 @@ background: linear-gradient(
     width: clamp(240px, 35vw, 450px);
     aspect-ratio: 1/1;
     margin: auto;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     padding: 8px;
-
     border-radius:15px;
-
-
 
 }
 
@@ -289,24 +271,19 @@ background: linear-gradient(
 
 }
 
-
 .floating-card{
     gap: 10px;
     width: clamp(140px, 15vw, 180px);
     padding: 10px 14px;
     background: rgba(255,255,255,.95);
-
     box-shadow: 0 12px 25px rgba(0,0,0,.18);
     transition: .3s;
-
     animation: float 4s ease-in-out infinite;
 
 }
 
 .floating-card:hover{
-
     transform: translateY(-6px);
-
 }
 
 .floating-card i{
@@ -315,11 +292,9 @@ background: linear-gradient(
 
 }
 .floating-card h6{
-
     margin:0;
     font-size:clamp(.8rem,1vw,.95rem);
     font-weight:700;
-
     color:#1C274C;
 
 }
@@ -332,7 +307,6 @@ background: linear-gradient(
 }
 
 .card-1{
-
     top:9%;
     left:-15%;
 
@@ -340,7 +314,6 @@ background: linear-gradient(
 .card-2{
     bottom:8%;
     left:-12%;
-
     animation-delay:1s;
 
 }
@@ -407,7 +380,6 @@ background: linear-gradient(
     height: 40px;
     object-fit: contain;
 }
-
 .tech-item:hover{
     transform: translateY(-5px);
     background: rgba(255,255,255,0.08);
@@ -474,7 +446,6 @@ background: linear-gradient(
 
 .project-header{
     height:220px;
-
 }
 
 .tech-badge{
@@ -520,7 +491,6 @@ background: linear-gradient(
 .custom-input::placeholder{
     color:#adb5bd;
 }
-
 .btn-contact{
     background:linear-gradient(135deg,#295D8F,#4FA3D9);
     border:none;
@@ -535,7 +505,6 @@ background: linear-gradient(
     border-left:3px solid #295D8F;
     margin-left:20px;
 }
-
 .timeline-dot{
     width:18px;
     height:18px;
@@ -546,7 +515,6 @@ background: linear-gradient(
     left:-11px;
     top:35px;
 }
-
 .custom-card{
     background:#10172D;
     border:1px solid #295D8F;
@@ -555,7 +523,6 @@ background: linear-gradient(
 #parcours{
     background:#070B1A;
 }
-
 .timeline{
     border-left:3px solid #295D8F;
     margin-left:18px;
@@ -572,7 +539,6 @@ background: linear-gradient(
     border:4px solid #4FA3D9;
     border-radius:50%;
 }
-
 .custom-card{
     background:#10172D;
     border:1px solid #295D8F;
@@ -601,8 +567,8 @@ background: linear-gradient(
 .footer-link{
     color:#ADB5BD;
     transition:.3s;
-}
 
+}
 .footer-link:hover{
     color:#4FA3D9;
 }
@@ -611,27 +577,15 @@ background: linear-gradient(
 
     width:45px;
     height:45px;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    text-decoration:none;
-
     border-radius:50%;
-
     color:#fff;
-
     background:linear-gradient(135deg,#295D8F,#4FA3D9);
-
     transition:.3s;
 
 }
 
 .social-icon:hover{
-
     color:#fff;
-
     transform:translateY(-4px);
 
 }
@@ -643,25 +597,20 @@ background: linear-gradient(
         padding-top: 110px;
         min-height: auto;
     }
-
     .hero h1 {
         font-size: 2.8rem;
         line-height: 1.2;
     }
-
     .hero p {
         font-size: 1rem;
     }
-
     .row {
         text-align: center;
     }
-
     .buttons {
         justify-content: center;
         flex-wrap: wrap;
     }
-
     .paragraphe {
         margin-left: auto;
         margin-right: auto;
@@ -671,23 +620,19 @@ background: linear-gradient(
         text-align: center !important;
     }
         .card-1{
-
         left:-8%;
         top:5%;
 
     }
 
     .card-2{
-
         left:-6%;
         bottom:5%;
 
     }
-
     .card-3{
 
         right:-8%;
-
     }
 
 }
