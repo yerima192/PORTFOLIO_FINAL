@@ -524,20 +524,21 @@ background: linear-gradient(
     background:#070B1A;
 }
 .timeline{
-    border-left:3px solid #295D8F;
-    margin-left:18px;
-    padding-left:25px;
+    position: relative;
+    border-left: 3px solid #295D8F;
+    margin-left: 18px;
+    padding-left: 25px;
 }
 
 .timeline-dot{
-    position:absolute;
-    left:-11px;
-    top:35px;
-    width:18px;
-    height:18px;
-    background:#070B1A;
-    border:4px solid #4FA3D9;
-    border-radius:50%;
+    position: absolute;
+    left: -11px;
+    top: 35px;
+    width: 18px;
+    height: 18px;
+    background: #070B1A;
+    border: 4px solid #4FA3D9;
+    border-radius: 50%;
 }
 .custom-card{
     background:#10172D;
@@ -588,6 +589,16 @@ background: linear-gradient(
     color:#fff;
     transform:translateY(-4px);
 
+}
+.marquee{
+    width: 200%;
+    animation: scroll 18s linear infinite;
+}
+
+@keyframes scroll{
+    to{
+        transform: translateX(-50%);
+    }
 }
 
 
